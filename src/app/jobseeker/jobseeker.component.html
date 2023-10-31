@@ -1,0 +1,45 @@
+
+
+
+
+<div class="container-fluid">
+    <nav class=" mt-1 navbar navbar-expand-lg bg-info navbar-dark danger-color rounded">
+      <!-- Brand -->
+      <img class="rounded-circle" width="45" src="assets\Photos\MKU-job-portal-removebg-preview.png" alt="Job Portal Logo" id="logobrand"><a class="navbar-brand "
+        id="logo"><B>Job Portal</B></a>
+      
+        <div class="spacer"></div>
+      <!-- Links -->
+      <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active"  routerLink="/seekerjobs">Jobs</a>
+            </li>
+            <!-- (click)="jobs()" -->
+            <li class="nav-item">
+              <a class="nav-link active"  [routerLink]="'/seekjobapplication'">Applied Jobs</a>
+            </li>
+            <!-- (click)="appliedjobs()" -->
+            <li class="nav-item">
+              <a class="nav-link active" [routerLink]="'/seekjobsearch'">search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" [routerLink]="'/seekprofile'">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" [routerLink]="'/seekeditprofile'">Edit Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" [routerLink]="'/login'">Logout</a>
+              </li>
+          </ul>
+    </div>
+    </nav>
+  </div>
+
+<div class="container-fluid">
+          
+  <router-outlet></router-outlet> 
+</div>
+
+

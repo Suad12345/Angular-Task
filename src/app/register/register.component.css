@@ -1,0 +1,22 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+button{
+width: 100%;
+}
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+p{
+text-align: center;
+
+}
+

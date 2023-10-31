@@ -1,0 +1,223 @@
+.seekerProfile-form {
+    max-width: 1000px;
+   width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:  #fff;
+    margin-top: 5px;
+    margin-left: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .seekerProfile-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .btn-primary{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8a8888;
+    width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .btn-Secondry{
+   
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #070707;
+    background-color: #fdfcfc;
+    width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  
+  .img1{
+    height: 80px;
+    width: 80px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 100px;
+  }
+  
+  .img2{
+    height: 500px;
+    width: 700px;
+    display: block;
+  margin-left: auto;
+  margin-right: 30px;
+  
+  }
+  
+  .seekerProfile-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding-top: 30px;
+  }
+  
+  
+  
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 165px;
+  
+    z-index: 1;
+   
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropdown-content a {
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #b3b5b6;
+    color: white;
+  }
+  
+  
+  .column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  }
+  
+  .column .form-group {
+  flex: 1;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .form-group2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  td,th{
+    border: 1px solid black;
+  }
+  
+  tr{
+    text-align: center;
+    height: 40px;
+  }
+  
+  h2{
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #8a8888;
+  }
+
+
+
+  #logo
+{
+    letter-spacing: 1pt;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 5px;
+}
+#logobrand{
+    width: 5%;
+    
+}
+.nav-link:hover{
+     border-left: 5px solid orange; 
+    /* animation-name: slowborder;
+    animation-timing-function: ease;
+    animation-duration: 1s; */
+   
+}
+.nav-link:active{
+   color: black;
+}
+@keyframes slowborder {
+    0% { background-color: orange;opacity: 0.2;}
+    25%{background-color: orange;opacity: 0.4;}
+    50% {background-color: orange;opacity: 0.6;}
+    75% {background-color: orange;opacity: 0.8;}
+    100%{background-color:  orange;opacity: 1;}
+  }
+.dropdown-item:hover{
+    
+    border-left: 5px solid orange;
+}
+#myInput {
+    
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  #search
+  {
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
